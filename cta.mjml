@@ -1,0 +1,11 @@
+<mj-section css-class="content-section" background-color="#FFD800">
+  <mj-column>
+			<mj-image 
+        src="https://picsum.photos/id/0/600/400" 
+        alt="An open laptop next to a notepad with a pen on it, and a coffee cup, on a wooden table"
+      />
+			<mj-button href="https://www.ashleymorganwbdv.com/" mj-class="button button-yellow" >
+        See Our Website
+      </mj-button>
+  </mj-column>
+</mj-section>

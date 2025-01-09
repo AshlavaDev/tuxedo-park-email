@@ -1,0 +1,82 @@
+<mjml>
+
+  <mj-head>
+
+    <mj-attributes>
+      <mj-text align="left" color="#000000" />
+      <mj-class name="header-text" font-size="32px" font-family="Tourney, Arial, Helvetica, sans-serif;" align="center" />      
+      <mj-class name="heading" font-size="24px" font-family="Oxanium, Arial, Helvetica, sans-serif" />
+      <mj-class name="body-content" font-size="18px" font-family="Chakra Petch, Arial, Helvetica, sans-serif" />
+      <mj-class name="button" font-size="18px" font-family="Chakra Petch, Arial, Helvetica, sans-serif" align="center" />
+      <mj-class name="button-magenta" background-color="#21b1ff" color="#ffffff"/>
+      <mj-class name="button-yellow" background-color="#FF218C" color="#ffffff"/>
+      <mj-class name="button-cyan" background-color="#FFD800" color="#FF218C"/>
+    </mj-attributes>
+		<mj-font name="Tourney" href="https://fonts.googleapis.com/css?family=Tourney" />
+    <mj-font name="Oxanium" href="https://fonts.googleapis.com/css?family=Oxanium" />
+    <mj-font name="Chakra Petch" href="https://fonts.googleapis.com/css2?family=Chakra+Petch" />
+    
+    <mj-style inline="inline">
+      .body {
+      	font-size: 18px;
+      	line-height: 1.5;
+      	color: #000000;
+      	background-color: #FF218C;
+        padding: 0;
+    	}		
+      
+      .image {
+      	width: 100% !important; 
+        max-width: 100% !important;
+        height: auto !important; 
+      }
+      
+      .header {
+      	padding: 0.5rem 1rem;
+    	}
+      
+      .content-section {
+        padding: 0 1rem;
+    	}
+      
+      .unsubscribe {
+      	color: #000000;
+      
+        &:hover {
+          color: #FFD800;
+        }
+      }
+
+      
+    </mj-style>
+    
+    <mj-style>
+    </mj-style>
+  </mj-head>
+
+  <mj-body css-class="body">
+
+    <mj-include path="./header.mjml" />
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-image 
+          src="https://picsum.photos/id/119/600/300" 
+          alt="A closed laptop next to a book and speak"
+          padding="0"
+          css-class="image"
+        />
+        <mj-text mj-class="heading" font-size="28px" align="center" padding="20px 10px 0 10px">
+          Our Services
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./web-development.mjml" />
+    <mj-include path="./accessibility.mjml" />
+    <mj-include path="./web-management.mjml" />
+		<mj-include path="./cta.mjml" />
+    <mj-include path="./footer.mjml" />
+
+  </mj-body>
+
+</mjml>

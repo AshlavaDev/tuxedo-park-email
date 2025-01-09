@@ -1,0 +1,12 @@
+<mj-section>
+
+  <mj-column>
+    <mj-text mj-class="body-content" align="center">
+      Tuxedo Park Web Development &copy; 2025
+    </mj-text>
+    <mj-text mj-class="body-content" align="center">
+      <a href="https://www.ashleymorganwbdv.com/" target="_blank" class="unsubscribe">Unsubscribe</a>
+    </mj-text>
+  </mj-column>
+
+</mj-section>
